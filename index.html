@@ -9,60 +9,65 @@
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
     <title>Milka Nikolic</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-
-    <!-- Custom styles for this template -->
-    <link href="http://getbootstrap.com/examples/blog/blog.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="./index_files/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
- 
-
+    <!-- added bootstrstrap style sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
   </head>
 
   <body>
-
-    <div class="blog-masthead" style="background-color:#3fe75b">
-      <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="index.html">Home</a> |
-          <a class="blog-nav-item" href="Research.html">Research</a> |
-          <a class="blog-nav-item" href="Teaching.html">Teaching</a> |
-          <a class="blog-nav-item" href="Plasma Spectroscopy.html">Plasma Spectroscopy</a> |
-          <a class="blog-nav-item" href="womeninphysics.html">Women in Physics</a>
-        </nav>
+<!-- navbar options -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-bottom: 50px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Milka Nikolic</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
+            <li class="nav-item"><a class="nav-link " aria-current="page" href="Research.html">Research</a> </li>
+            <li class="nav-item"><a class="nav-link " aria-current="page" href="Teaching.html">Teaching</a> </li>
+            <li class="nav-item"><a class="nav-link " aria-current="page" href="Plasma Spectroscopy.html">Plasma Spectroscopy</a> </li>
+            <li class="nav-item"><a class="nav-link " aria-current="page" href="womeninphysics.html">Women in Physics</a></li>
+          </ul>
+          
+        </div>
       </div>
-    </div>
+    </nav>
 
+
+<!-- page container -->
     <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="img/tomography.png" alt="tomography" style="display:inline-block; width:100%; max-width: 150px;"/>
+        </div>
+        <div class="col-sm-9">
+          <h1>Milka Nikolic </h1>      
+          <p>Associate Professor of Physics </p> 
+        </div>
+      </div>
 
-      <div class="blog-header">
-      <div class="media">
-        <div class="media-left">
-            <a href="#">
-                <img class="media-object" src="index_files/jmuphysics.jpg" alt="jmuphysics">
-            </a>
+      <div class="row pt-4">
+        <div class="col-sm-8 col-md-9">
+          <p class="text-justify"> I am an Associate Professor of Physics and a Department Chair at the Department of Physics and Astronomy, University of San Francisco. I am first and foremost a teacher. In the previous eight years, I have taught 15 distinctive lecture and laboratory courses. I enjoy being in a classroom where together with my stuents we can unravel misteries of physics. Including students in my research is my other passion. My research focuses primarely on spectrscopy methods for plasma etching and cleaning technologies. In particular, I work on combining various numerical methods with widely used optical emission spectroscopy technique to obtain fundamental plasma properties.</p>   
+          <hr>
         </div>
-        <div class="media-body">
-          <h1 class="media-heading">Milka Nikolic</h1>
-          <p class="lead blog-description">Assistant Professor of Physics</p>
+        <div class="col-sm-4 col-md-3">
+          <img src="img/milka_profil.jpg" alt="profile" class="img-thumbnail" style="margin-left:10px; width: 100%;"/>
+          <p class="fs-6 fw-bold" style="margin-bottom: 0px; color:rgb(0, 0, 255)">Department of Physics and Astronomy </p> 
+          <p class="fs-6 fw-bold" style="color:rgb(0, 0, 255)">University of San Francisco </p> 
+          <p class="fs-6" style="margin-bottom: 0px; color:rgb(0, 0, 255)">2130 Fulton St. </p>
+          <p class="fs-6" style="margin-bottom: 0px; color:rgb(0, 0, 255)">San Francisco, CA 94117 </p>
+          <p class="fs-6" style=" color:rgb(0, 0, 255)">Office: HR G70 </p>
+          <a href="mailto:mnikolic@usfca.edu">Email: mnikolic@usfca.edu</a>
+          <a href="tel:415-422-4947">(415) 422-4947</a>
         </div>
       </div>
-      </div>
+
+
 
      
 
@@ -149,7 +154,7 @@
 
         <div class="col-md-3 col-sm-offset-1 blog-sidebar" style="color:rgb(84, 0, 135)">
           <div class="sidebar-module sidebar-module-inset">
-            <img src="profile.jpg" alt="profile" class="img-thumbnail" style="margin-left:10px">
+            <img src="img/10.18.21-OMC11778-Faculty Photo Shoots-Milka Nikolic-06.jpg" alt="profile" class="img-thumbnail" style="margin-left:10px">
             <address>
                 <strong>Department of Physics and Astronomy</strong><br>
                 <strong>James Madison University</strong><br>
